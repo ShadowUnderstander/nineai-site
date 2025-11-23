@@ -1,12 +1,112 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <title>NineAI 公式ページ</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NineAI Official</title>
+
+    <style>
+        /* ===== NineAI S-Design (Standalone Edition) ===== */
+        :root {
+            --bg-dark: #0b0d10;
+            --accent-blue: #4ecbff;
+            --card-bg: #14171c;
+            --text-main: #f5f7fa;
+            --text-sub: #c6c9d1;
+        }
+
+        body {
+            background: var(--bg-dark);
+            color: var(--text-main);
+            font-family: "Inter", "Noto Sans JP", sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.7;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px 20px;
+        }
+
+        .header-title {
+            font-size: 3rem;
+            font-weight: 700;
+            color: var(--text-main);
+            letter-spacing: 0.03em;
+            margin-top: 10px;
+        }
+
+        .section {
+            width: 90%;
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 40px;
+            background: var(--card-bg);
+            border-radius: 18px;
+            box-shadow: 0 0 30px rgba(0,0,0,0.4);
+            transition: 0.2s ease;
+        }
+
+        .section:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 0 40px rgba(0,0,0,0.55);
+        }
+
+        .section-title {
+            font-size: 1.8rem;
+            color: var(--accent-blue);
+            margin-bottom: 18px;
+            font-weight: 600;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 0;
+            color: var(--text-sub);
+            font-size: 0.9rem;
+        }
+
+        a {
+            color: var(--accent-blue);
+            text-decoration: none;
+        }
+        a:hover {
+            opacity: 0.7;
+        }
+    </style>
 </head>
+
 <body>
-  <h1>NineAI</h1>
-  <p>次世代AIプロジェクト「NineAI」の公式サイトです。</p>
-  <p>お問い合わせ: stmak@icloud.com</p>
+    <header>
+        <h1 class="header-title">NineAI Official</h1>
+    </header>
+
+    <section class="section">
+        <h2 class="section-title">What is NineAI?</h2>
+        <p>
+            NineAI（ナインAI）は、認知・構造・情報処理を最適化するために設計された
+            新世代の AI フレームワークです。
+        </p>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Features</h2>
+        <ul>
+            <li>高精度レイヤー再構成システム</li>
+            <li>逆算生成エンジン</li>
+            <li>破綻検出アルゴリズム</li>
+            <li>自己最適化フロー</li>
+        </ul>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Contact</h2>
+        <p>お問い合わせ: stmak@icloud.com</p>
+    </section>
+
+    <footer>
+        © 2025 NineAI
+    </footer>
 </body>
 </html>
